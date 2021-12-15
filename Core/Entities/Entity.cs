@@ -6,7 +6,7 @@ namespace Core.Entities
 {
     public class Entity
     {
-        public int Id { private set; get; }
+        public int Id {  set; get; }
         public DateTime CreationDate { get; set; }
         public DateTime LastUpdate { get; set; }
         public bool IsActive { get; set; }
